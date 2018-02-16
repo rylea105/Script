@@ -17,3 +17,6 @@ yum -y install nodejs
 
 #open to connect http
 setsebool -P httpd_can_network_connect 1
+
+#move .conf
+cp ./nginx.conf /etc/nginx/conf.d/
