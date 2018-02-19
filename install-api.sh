@@ -4,8 +4,8 @@
 yum install -y epel-release
 
 #install docker
-yum install -y docker-ce-17.12.0.ce
-systemctl start docker
+cd Script
+git clone https://github.com/DeathSy/ksotis.git
 
 #install git
 yum install -y git
