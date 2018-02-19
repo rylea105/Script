@@ -14,6 +14,8 @@ yum install -y git
 #install node
 curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 yum -y install nodejs
+npm install -g pm2
+npm install -g yarn
 
 #open to connect http
 setsebool -P httpd_can_network_connect 1
