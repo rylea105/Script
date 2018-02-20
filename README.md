@@ -2,6 +2,12 @@
 
 ## วิธีใช้งาน
 
+ดึง Repo มาก่อนโดย 
+
+```bash
+  git clone https://github.com/rylea105/Script.git
+```
+
 เข้าไปที่ directory Script
 
 ```bash
