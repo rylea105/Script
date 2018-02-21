@@ -1,0 +1,7 @@
+#create user mariaDB
+CREATE USER 'talklikethat_dev'@'localhost' IDENTIFIED BY 'talklikethat_dev';
+CREATE USER 'talklikethat_dev'@'%' IDENTIFIED BY 'talklikethat_dev';
+GRANT ALL PRIVILEGES ON *.* to talklikethat_dev@localhost IDENTIFIED BY 'talklikethat_dev' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* to talklikethat_dev@'%' IDENTIFIED BY 'talklikethat_dev' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+EXIT;
